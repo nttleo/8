@@ -54,7 +54,7 @@ class sys : small
         Thread.Sleep(2000);
         Console.Clear();
 
-        Console.WriteLine("what type of *random word* do you want? \n1. a infinite one \ta list of random ones \n<pls input the corresponding number>");
+        Console.WriteLine("what type of *random word* do you want? \n1. a infinite one \t2. a list of random ones \n<pls input the corresponding number>");
          while (true)
         {
             string c = Console.ReadLine();
