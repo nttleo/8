@@ -4,7 +4,6 @@ using System.Threading;
 
 class quiz
 {
-    readonly string[][][][][][][][][][] hi;
     static void rpq(ref string c, ref int e, int a1, int a2, int a3, int a4)
     {
         while (true)
