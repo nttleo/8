@@ -45,7 +45,7 @@ class quiz
         Thread.Sleep(3000);
         rpq(ref choice, ref p, 3, 2, -1, -2);
         Console.WriteLine("\x1B[33m- are you jojofag?\x1B[37m \n1. jojotards need to die \n2. yare yare daze \n3. what jojo means? \n4. minecraft>>");
-        rpq(ref choice, ref p, -3, -2, 2, 1);
+        rpq(ref choice, ref p, -3, -2, 3, 1);
         Console.WriteLine("\x1B[33m- what do you think about women right?\x1B[37m \n1. stfu women \n2. women deserves a good and secure life like all another person in our society. \n3. i like hentai \n4. idk just want potato");
         rpq(ref choice, ref p, 2, -1, -2, 1);
         Console.WriteLine("\x1B[33m- what r the values of the other variables of y²=x³+ax+b considering that y = 2.6?\x1B[37m \n1. 69 \n2. covid dude i forgot how to think \n3. fuck you herobrine \n4. IM LOSING BRAINCELLS");
@@ -76,12 +76,12 @@ class quiz
             Console.WriteLine("\x1B[33mHEROBRINE LIKES YOU.\x1B[37m \nhe wont do anything, simply cuz he doesnt care enough. \nbtw stay online on skype...");
             Thread.Sleep(4000);
         }
-        else if ((15 > p && p <= 20) == true)
+        else if ((15 > p && p < 20) == true)
         {
             Console.WriteLine("\x1B[33mHEROBRINE THINKS YOU ARE A NICE PERSON.\x1B[37m \nhe wont do anything, simply cuz he doesnt care enough. \nbtw stay alert...");
             Thread.Sleep(4000);
         }
-        else if ((p > 20) == true)
+        else if ((p >= 20) == true)
         {
             Console.WriteLine("\x1B[33mHEROBRINE LOVES YOU!! :333\x1B[37m \nhe may wanna sleep with your dad and play mc survival with you! \n(you are lucky.......)");
             Thread.Sleep(4000);
